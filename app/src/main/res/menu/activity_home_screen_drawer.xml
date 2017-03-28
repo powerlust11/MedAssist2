@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search Database"/>
+        <item
+            android:id="@+id/nav_patients"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Patients List" />
+        <item
+            android:id="@+id/nav_add_patient"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add Patient" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Log Out" />
+    </group>
+
+    <item
+        android:id="@+id/nav_schedule"
+        android:title="Schedule">
+        <menu>
+            <item
+                android:id="@+id/nav_add_appointment"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:title="Add Appointment" />
+            <item
+                android:id="@+id/nav_calender"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Calender" />
+        </menu>
+    </item>
+</menu>

@@ -5,4 +5,5 @@ package joeuser.medassist2.serverRequests;
  */
 
 public class ServerRequest {
+    //sssssssss
 }

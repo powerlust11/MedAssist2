@@ -5,7 +5,7 @@
     <string name="title_activity_medical_history">MedicalHistoryActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_current_patients">Current Patients</string>
-    <string name="title_activity_main_login">Sign in</string>
+    <string name="title_activity_main_login">MedAssist 2</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -23,5 +23,4 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <!--Here would be code that would pull stuff from the database. string name="DiseaseNameFromDatabase":> PULL_DATA_HERE /string -->
 </resources>
